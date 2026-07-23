@@ -65,3 +65,7 @@ Sí, considero que es **conocido**, porque el agente sabe cómo interpretar las 
 ## 5. ¿Qué tipo de programa de agente creen que es?
 
 Creo que es un **agente con aprendizaje**. Aunque durante el uso no aprende directamente de cada usuario, su funcionamiento depende de un modelo de inteligencia artificial entrenado previamente con grandes cantidades de datos al estilo ChatGPT.
+
+## Imagen de ejemplo de funcionamiento
+
+![output_example.png](output_example.png)

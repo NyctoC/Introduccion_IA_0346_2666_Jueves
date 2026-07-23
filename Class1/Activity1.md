@@ -72,19 +72,19 @@ Creo que es un **agente con aprendizaje**. Aunque durante el uso no aprende dire
 
 ## 6. Reto adicional
 
-Agentes clasificables como:
+### Agentes clasificables como:
 
-1.  **Totalmente observable, determinista y episódico:** [Baidu - Unlimited-OCR](https://huggingface.co/spaces/baidu/Unlimited-OCR)
+#### 1. **Totalmente observable, determinista y episódico:** [Baidu - Unlimited-OCR](https://huggingface.co/spaces/baidu/Unlimited-OCR)
 
-### Justificación: 
+**Justificación:**
 
 * **Totalmente observable:** Toda la información necesaria está contenida en la imagen o el PDF que recibe el agente.
 * **Determinista:** Para el mismo documento de entrada, el sistema genera el mismo texto extraído bajo las mismas condiciones.
 * **Episódico:** Cada imagen o PDF se procesa de forma independiente, sin depender de documentos procesados anteriormente.
 
-2.  **Parcialmente observable, estocástico y secuencial:** [Qwen - Qwen3-VL Demo](https://huggingface.co/spaces/Qwen/Qwen3-VL-Demo) 
+#### 2. **Parcialmente observable, estocástico y secuencial:** [Qwen - Qwen3-VL Demo](https://huggingface.co/spaces/Qwen/Qwen3-VL-Demo) 
 
-### Justificación:
+**Justificación:**
 
 * **Parcialmente observable:** El agente solo conoce la información proporcionada por el usuario (texto, imágenes y el historial de la conversación), pero no tiene acceso al contexto completo del problema o del entorno.
 * **Estocástico:** La respuesta puede variar para la misma consulta debido a la naturaleza probabilística del modelo de lenguaje.
